@@ -18,6 +18,8 @@ end
 
 gem 'jquery-rails'
 
+gem 'therubyracer'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
@@ -31,3 +33,4 @@ group :test do
   # Pretty printed test output
   gem 'turn', :require => false
 end
+
